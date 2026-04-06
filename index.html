@@ -600,16 +600,18 @@
         }
 
         .about-image {
-    max-width: 500px;
-    height: 350px;
+    width: 100%;
+    height: 400px;   /* 🔥 increase area */
     overflow: hidden;
     border-radius: 15px;
 }
+
 
 .about-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center;  /* 🔥 centers image nicely */
     display: block;
 }
 
